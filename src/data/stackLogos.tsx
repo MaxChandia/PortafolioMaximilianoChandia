@@ -1,0 +1,35 @@
+export const StackLogos = [
+    {
+        name:'Typescript',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
+    },
+    {
+        name:'React',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+    },
+    {
+        name:'Nextjs',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
+    },
+    {
+        name:'Nodejs',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+    },
+    {
+        name:'Nestjs',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg'
+    },
+    {
+        name:'Postgresql',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
+    },
+    {
+        name:'MongoDB',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
+    },
+    {   
+        name:'Figma',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+    }
+
+]

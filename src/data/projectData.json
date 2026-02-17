@@ -1,0 +1,30 @@
+[   
+    {
+        "id": 1,
+        "name": "ChucaoLab (En desarrollo)",
+        "description": "Sitio web institucional para el laboratorio de investigación sobre paisaje sonoro, ChucaoLab, adscrito a la Universidad de Chile. La aplicación es autoadministrable y tiene como finalidad la subida de noticias, publicaciones, proyectos, entre otros. Está realizada con Next.js, Tailwind y Sanity (Headless CMS).",
+        "link": "https://chucao-lab.vercel.app/",
+        "image":"src/assets/chucaomuestra.png"
+    },{
+        "id": 2,
+        "name": "EyH Maestranza Ltda.",
+        "description": "Sitio web para empresa de metalmecánica, EyH Maestranza Ltda. La aplicación tiene como finalidad mostrar los servicios y productos ofrecidos por la empresa, asimismo servir como puente de contacto con los clientes potenciales. La aplicación está realizada con React y cuenta con una base de datos SQL.",
+        "link": "",
+        "image":"src/assets/eyhmuestra.png"
+    },
+        {
+        "id": 3,
+        "name": "Parroquia La Transfiguración del Señor",
+        "description": "Sitio web desarrollado para Parroquia La Transfiguración del Señor. Este sitio web autoadministrable tiene como finalidad ser un espacio de encuentro para la comunidad s, además de mostrar las novedades parroquiales. La aplicación está realizada con Next.js, Nest.js y MongoDB.",
+        "link": "",
+        "image":"src/assets/parroquiamusetra.png"
+    },
+    {
+         "id": 4,
+        "name": "ALDHU",
+        "description": "Diseño para sitio web de ALDHU, Asociación Latinoamericana de Derechos Humanos. El diseño busca representar a la organización de forma visual, permitir conocer su historia y trabajo, además de poder subir noticias y publicaciones. El trabajo fue realizado con Figma, pensado en ser trabajado con Next.js y Headless CMS.",
+        "link": "https://www.figma.com/proto/kl8puB1aCscPuCetHPNCbF/ALDHU-ver-Escritorio?node-id=1-3&t=3LWgW4zZKHdi6xFu-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=1",
+        "image":"src/assets/aldhudiseño.png"
+    }
+
+]
