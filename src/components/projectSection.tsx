@@ -25,7 +25,7 @@ export default function ProjectSection (){
                     <div className="lg:left-1/4 lg:-translate-x-1/2 absolute">
                         <div className="bg-gray-100 w-[500px] h-[250px] lg:w-[1200px] lg:h-[600px] rounded-full shadow-xl flex items-center justify-center">
                             <img 
-                                src={project.image} 
+                                src={`${import.meta.env.BASE_URL}${project.image}`}
                                 alt={project.name} 
                                 className="w-[280px] h-[200px] lg:w-[600px] lg:h-[500px] lg:translate-x-1/4 rounded-[20px] shadow-xl object-cover" 
                             />
