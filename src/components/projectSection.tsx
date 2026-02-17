@@ -2,6 +2,11 @@ import type { Project } from "../data/projectInterface";
 import ProjectData from "../data/projectData.json"
 import { useState } from "react";
 
+const images = import.meta.glob<{ default: string }>(
+  '../assets/*.png',
+  { eager: true }
+);
+
 export default function ProjectSection (){
     const [projectIndex, setProjectIndex] = useState(0)
     const total = ProjectData.length
@@ -15,6 +20,11 @@ export default function ProjectSection (){
         setProjectIndex((next) => next === total - 1 ? 0 : next + 1 )
     };
 
+    const getImagePath = (filename: string) => {
+        const key = Object.keys(images).find(k => k.includes(filename));
+        return key ? images[key].default : '';
+    };
+
     return(
         <div className="flex flex-col justify-center items-center w-full min-h-screen lg:h-[130vh] p-6 lg:p-10 gap-5 overflow-hidden">
             <h2 className="text-2xl lg:text-3xl font-bold font-space text-white pt-10">Trabajos</h2>
@@ -25,7 +35,7 @@ export default function ProjectSection (){
                     <div className="lg:left-1/4 lg:-translate-x-1/2 absolute">
                         <div className="bg-gray-100 w-[500px] h-[250px] lg:w-[1200px] lg:h-[600px] rounded-full shadow-xl flex items-center justify-center">
                             <img 
-                                src={`${import.meta.env.BASE_URL}${project.image}`}
+                                src={getImagePath(project.image)}
                                 alt={project.name} 
                                 className="w-[280px] h-[200px] lg:w-[600px] lg:h-[500px] lg:translate-x-1/4 rounded-[20px] shadow-xl object-cover" 
                             />
