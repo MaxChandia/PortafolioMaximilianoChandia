@@ -1,9 +1,9 @@
 [   
     {
         "id": 1,
-        "name": "ChucaoLab (En desarrollo)",
+        "name": "ChucaoLab",
         "description": "Sitio web institucional para el laboratorio de investigación sobre paisaje sonoro, ChucaoLab, adscrito a la Universidad de Chile. La aplicación es autoadministrable y tiene como finalidad la subida de noticias, publicaciones, proyectos, entre otros. Está realizada con Next.js, Tailwind y Sanity (Headless CMS).",
-        "link": "https://chucao-lab.vercel.app/",
+        "link": "https://www.chucaolab.cl/",
         "image":"assets/chucaomuestra.png"
     },{
         "id": 2,
