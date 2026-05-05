@@ -38,6 +38,7 @@ export default function ProjectSection (){
                                 src={getImagePath(project.image)}
                                 alt={project.name} 
                                 className="w-[280px] h-[200px] lg:w-[600px] lg:h-[500px] lg:translate-x-1/4 rounded-[20px] shadow-xl object-cover" 
+                                lazy-loading
                             />
                         </div>
                     </div>
